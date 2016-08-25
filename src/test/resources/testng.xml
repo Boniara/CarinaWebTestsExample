@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="onlinerSuite" parallel="methods" thread-count="5" >
+    <test name="onlinerTest">
+        <classes>
+            <class name="com.boniara.carinawebtestsexample.OnlinerTestSuite"/>
+        </classes>
+    </test>
+</suite>
