@@ -13,7 +13,7 @@ public class SearchIFrame extends AbstractUIObject {
     private static final Logger LOG = Logger.getLogger(SearchIFrame.class);
 
     @FindBy(xpath = "//div[@class='result__wrapper']")
-    public List<ProductBlock> productBlockList;
+    private List<ProductBlock> productBlockList;
 
     public SearchIFrame(WebDriver driver) {
         super(driver);
@@ -24,7 +24,7 @@ public class SearchIFrame extends AbstractUIObject {
         SoftAssert softAssert = new SoftAssert();
         softAssert.assertTrue(! productBlockList.isEmpty(), "Result list is empty");
         for(ProductBlock productBlock: productBlockList) {
-            String title = productBlock.title.getText();
+            String title = productBlock.getTitleText();
             LOG.debug(title + "is checked");
             softAssert.assertTrue(title.contains(containsString), "Product blockTitle text don`t contains the product" +
                     " blockTitle text from reviews page. Expected value = " + title + " actual value = " + containsString);

@@ -17,8 +17,8 @@ public class ChecksBlock extends AbstractUIObject {
 
     public CheckboxBlock getCheckboxblock(String title) {
         for(CheckboxBlock block: checkboxBlocks) {
-            assertElementPresent(block.blockTitle);
-            if(block.blockTitle.getText().toLowerCase().contains(title.toLowerCase())) {
+            assertElementPresent(block.getTitle());
+            if(block.getTitleText().toLowerCase().contains(title.toLowerCase())) {
                 return block;
             }
         }

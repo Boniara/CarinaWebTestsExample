@@ -24,8 +24,7 @@ public class OnlinerTestSuite extends UITest {
         String description = phonePage.getPhoneDescription();
         ReviewsPage reviewsPage = phonePage.reviewsPageClick();
         String descriptionFromReviewsPage = reviewsPage.getPhoneDescription();
-        Assert.assertEquals(description, descriptionFromReviewsPage, "Phone description are not identical." +
-                " Expected value = " + description + " actual value = " + descriptionFromReviewsPage);
+        Assert.assertEquals(description, descriptionFromReviewsPage, "Phone description are not identical.");
     }
 
     @Test(dataProvider = "DataProvider", description = "Test check search logic from search iframe")

@@ -10,7 +10,7 @@ import java.util.List;
 public class CheckboxBlock extends AbstractUIObject {
 
     @FindBy(xpath = ".//div[@class='schema-filter__label']/span")
-    public ExtendedWebElement blockTitle;
+    private ExtendedWebElement blockTitle;
 
     @FindBy(xpath = ".//span[@class='i-checkbox']")
     private List<ExtendedWebElement> checkBoxList;
@@ -42,5 +42,13 @@ public class CheckboxBlock extends AbstractUIObject {
 
     public void check(Integer title) {
         getCheckboxByTitle(title.toString()).check();
+    }
+
+    public String getTitleText() {
+        return blockTitle.getText();
+    }
+
+    public ExtendedWebElement getTitle() {
+        return blockTitle;
     }
 }

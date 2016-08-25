@@ -9,9 +9,13 @@ import org.openqa.selenium.support.FindBy;
 public class ProductBlock extends AbstractUIObject {
 
     @FindBy(xpath = ".//a[contains(@class,'product__title')]")
-    public ExtendedWebElement title;
+    private ExtendedWebElement title;
 
     public ProductBlock(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
+    }
+
+    public String getTitleText() {
+        return title.getText();
     }
 }
