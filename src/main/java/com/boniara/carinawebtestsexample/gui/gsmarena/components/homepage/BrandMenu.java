@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.gui.gsmarena.components.home_page;
+package com.boniara.carinawebtestsexample.gui.gsmarena.components.homepage;
 
 import com.boniara.carinawebtestsexample.exceptions.BrandNotFoundException;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;

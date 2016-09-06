@@ -1,7 +1,7 @@
 package com.boniara.carinawebtestsexample.gui.gsmarena.pages;
 
-import com.boniara.carinawebtestsexample.gui.gsmarena.components.home_page.BrandMenu;
-import com.boniara.carinawebtestsexample.gui.gsmarena.components.home_page.FootMenu;
+import com.boniara.carinawebtestsexample.gui.gsmarena.components.homepage.BrandMenu;
+import com.boniara.carinawebtestsexample.gui.gsmarena.components.homepage.FootMenu;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;

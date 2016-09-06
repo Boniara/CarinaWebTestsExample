@@ -2,7 +2,7 @@ package com.boniara.carinawebtestsexample;
 
 import com.boniara.carinawebtestsexample.gui.gsmarena.pages.ComparePage;
 import com.boniara.carinawebtestsexample.gui.gsmarena.pages.HomePage;
-import com.boniara.carinawebtestsexample.gui.gsmarena.pages.ProductPage;
+import com.boniara.carinawebtestsexample.gui.gsmarena.pages.ProductInfoPage;
 import com.boniara.carinawebtestsexample.gui.gsmarena.pages.ProductsPage;
 import com.qaprosoft.carina.core.foundation.UITest;
 import com.qaprosoft.carina.core.foundation.dataprovider.annotations.XlsDataSourceParameters;
@@ -21,11 +21,11 @@ public class GsmArenaTests extends UITest {
         homePage.open();
         Assert.assertTrue(homePage.isPageOpened(16), "Home page is not opened");
         ProductsPage productsPage = homePage.clickBrandByName(producer);
-        ProductPage productPage = productsPage.clickProductByName(brand);
-        productPage.getReviewHeader().checkElementText("display", display);
-        productPage.getReviewHeader().checkElementText("camera", camera);
-        productPage.getReviewHeader().checkElementText("expansion", expansion);
-        productPage.getReviewHeader().checkElementText("battery", battery);
+        ProductInfoPage productInfoPage = productsPage.clickProductByName(brand);
+        productInfoPage.getReviewHeader().checkElementText("display", display);
+        productInfoPage.getReviewHeader().checkElementText("camera", camera);
+        productInfoPage.getReviewHeader().checkElementText("expansion", expansion);
+        productInfoPage.getReviewHeader().checkElementText("battery", battery);
     }
 
     @Test(description = "Test checks compare logic and output with product latest release date")

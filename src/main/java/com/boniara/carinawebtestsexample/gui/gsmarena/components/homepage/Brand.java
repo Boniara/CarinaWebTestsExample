@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.gui.gsmarena.components.home_page;
+package com.boniara.carinawebtestsexample.gui.gsmarena.components.homepage;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractUIObject;

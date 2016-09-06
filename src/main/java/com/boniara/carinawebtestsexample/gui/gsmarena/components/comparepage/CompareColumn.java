@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.gui.gsmarena.components.compare_page;
+package com.boniara.carinawebtestsexample.gui.gsmarena.components.comparepage;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractUIObject;
