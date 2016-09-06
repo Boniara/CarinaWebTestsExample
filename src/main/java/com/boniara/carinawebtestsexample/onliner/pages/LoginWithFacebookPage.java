@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.pages;
+package com.boniara.carinawebtestsexample.onliner.pages;
 
 import com.qaprosoft.carina.core.foundation.utils.SpecialKeywords;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;

@@ -1,7 +1,7 @@
 package com.boniara.carinawebtestsexample;
 
-import com.boniara.carinawebtestsexample.pages.*;
-import com.boniara.carinawebtestsexample.components.SearchIFrame;
+import com.boniara.carinawebtestsexample.onliner.pages.*;
+import com.boniara.carinawebtestsexample.onliner.components.SearchIFrame;
 import com.qaprosoft.carina.core.foundation.UITest;
 import com.qaprosoft.carina.core.foundation.dataprovider.annotations.XlsDataSourceParameters;
 import org.testng.Assert;

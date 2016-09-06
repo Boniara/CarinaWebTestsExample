@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.components;
+package com.boniara.carinawebtestsexample.onliner.components;
 
 import com.qaprosoft.carina.core.gui.AbstractUIObject;
 import org.openqa.selenium.SearchContext;

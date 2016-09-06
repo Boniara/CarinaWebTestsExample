@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.components;
+package com.boniara.carinawebtestsexample.onliner.components;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractUIObject;

@@ -1,6 +1,6 @@
-package com.boniara.carinawebtestsexample.pages;
+package com.boniara.carinawebtestsexample.onliner.pages;
 
-import com.boniara.carinawebtestsexample.components.ChecksBlock;
+import com.boniara.carinawebtestsexample.onliner.components.ChecksBlock;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
