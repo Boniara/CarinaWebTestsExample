@@ -1,9 +1,9 @@
 package com.boniara.carinawebtestsexample;
 
-import com.boniara.carinawebtestsexample.gui.gsmarena.ComparePage;
-import com.boniara.carinawebtestsexample.gui.gsmarena.HomePage;
-import com.boniara.carinawebtestsexample.gui.gsmarena.ProductPage;
-import com.boniara.carinawebtestsexample.gui.gsmarena.ProductsPage;
+import com.boniara.carinawebtestsexample.gui.gsmarena.pages.ComparePage;
+import com.boniara.carinawebtestsexample.gui.gsmarena.pages.HomePage;
+import com.boniara.carinawebtestsexample.gui.gsmarena.pages.ProductPage;
+import com.boniara.carinawebtestsexample.gui.gsmarena.pages.ProductsPage;
 import com.qaprosoft.carina.core.foundation.UITest;
 import com.qaprosoft.carina.core.foundation.dataprovider.annotations.XlsDataSourceParameters;
 import org.testng.Assert;
@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 public class GsmArenaTests extends UITest {
 
     @Test(dataProvider = "DataProvider", description = "Test compares phones specifications")
-    @XlsDataSourceParameters(path = "demo.xlsx", sheet = "gui", dsUid = "TUID", dsArgs = "producer, brand, display, " +
+    @XlsDataSourceParameters(path = "test_data/xlsx/demo.xlsx", sheet = "gui", dsUid = "TUID", dsArgs = "producer, brand, display, " +
             "camera, expansion, battery")
     public void checkProductSpecifications(String producer, String brand, String display, String camera,
                                            String expansion, String battery) {

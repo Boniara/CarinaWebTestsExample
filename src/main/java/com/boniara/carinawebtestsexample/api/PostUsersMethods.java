@@ -2,7 +2,7 @@ package com.boniara.carinawebtestsexample.api;
 
 import com.qaprosoft.carina.core.foundation.api.AbstractApiMethodV2;
 
-import static com.boniara.carinawebtestsexample.api.utils.Constants.API_URL;
+import static com.boniara.carinawebtestsexample.utils.Constants.API_URL;
 
 public class PostUsersMethods extends AbstractApiMethodV2 {
 

@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.api.utils;
+package com.boniara.carinawebtestsexample.utils;
 
 import com.qaprosoft.carina.core.foundation.utils.Configuration;
 

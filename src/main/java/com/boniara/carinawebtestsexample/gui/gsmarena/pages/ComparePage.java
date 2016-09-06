@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.gui.gsmarena;
+package com.boniara.carinawebtestsexample.gui.gsmarena.pages;
 
 import com.boniara.carinawebtestsexample.gui.gsmarena.components.CompareCondidatesBlock;
 import com.boniara.carinawebtestsexample.gui.gsmarena.components.CondidateDescriptionBlock;
