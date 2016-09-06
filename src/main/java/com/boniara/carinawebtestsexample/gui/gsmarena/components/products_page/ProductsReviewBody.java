@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.gui.gsmarena.components;
+package com.boniara.carinawebtestsexample.gui.gsmarena.components.products_page;
 
 import com.boniara.carinawebtestsexample.exceptions.ProductNotFoundException;
 import com.qaprosoft.carina.core.gui.AbstractUIObject;

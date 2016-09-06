@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.gui.gsmarena.components;
+package com.boniara.carinawebtestsexample.gui.gsmarena.components.home_page;
 
 import com.boniara.carinawebtestsexample.gui.gsmarena.pages.ComparePage;
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
@@ -9,12 +9,12 @@ import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
-public class HomeMenu extends AbstractUIObject {
+public class FootMenu extends AbstractUIObject {
 
     @FindBy(xpath = ".//a")
     private List<ExtendedWebElement> menuElementList;
 
-    public HomeMenu(WebDriver driver, SearchContext searchContext) {
+    public FootMenu(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
     }
 

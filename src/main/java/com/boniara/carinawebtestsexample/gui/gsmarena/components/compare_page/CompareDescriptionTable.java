@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.gui.gsmarena.components;
+package com.boniara.carinawebtestsexample.gui.gsmarena.components.compare_page;
 
 import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
 import com.qaprosoft.carina.core.gui.AbstractUIObject;
@@ -14,7 +14,7 @@ public class CompareDescriptionTable extends AbstractUIObject {
     private ExtendedWebElement tableName;
 
     @FindBy(xpath = ".//tr")
-    private List<CompareRow> columnNameList;
+    private List<CompareRow> compareRowList;
 
     public CompareDescriptionTable(WebDriver driver, SearchContext searchContext) {
         super(driver, searchContext);
@@ -25,7 +25,7 @@ public class CompareDescriptionTable extends AbstractUIObject {
     }
 
     public CompareRow getCompareRow(String rowName) {
-        for(CompareRow compareRow: columnNameList) {
+        for(CompareRow compareRow: compareRowList) {
             if(compareRow.getRowName().toLowerCase().contains(rowName.toLowerCase())) {
                 return compareRow;
             }

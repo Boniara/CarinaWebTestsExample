@@ -1,4 +1,4 @@
-package com.boniara.carinawebtestsexample.gui.gsmarena.components;
+package com.boniara.carinawebtestsexample.gui.gsmarena.components.product_page;
 
 import com.qaprosoft.carina.core.gui.AbstractUIObject;
 import org.openqa.selenium.ElementNotVisibleException;

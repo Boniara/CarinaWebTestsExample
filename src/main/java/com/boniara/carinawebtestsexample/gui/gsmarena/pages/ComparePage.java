@@ -1,7 +1,7 @@
 package com.boniara.carinawebtestsexample.gui.gsmarena.pages;
 
-import com.boniara.carinawebtestsexample.gui.gsmarena.components.CompareCondidatesBlock;
-import com.boniara.carinawebtestsexample.gui.gsmarena.components.CondidateDescriptionBlock;
+import com.boniara.carinawebtestsexample.gui.gsmarena.components.compare_page.CompareCondidatesBlock;
+import com.boniara.carinawebtestsexample.gui.gsmarena.components.compare_page.CondidateDescriptionBlock;
 import com.qaprosoft.carina.core.gui.AbstractPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.FindBy;
