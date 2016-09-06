@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="demoSuite">
+    <test name="demoTests">
+        <classes>
+            <class name="com.boniara.carinawebtestsexample.GsmArenaTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" parallel="tests" data-provider-thread-count="5" name="Roxsoft test demo">
+
+    <test name="demo_Test">
+        <classes>
+            <class name="com.boniara.carinawebtestsexample.UserTests"/>
+        </classes>
+    </test>
+	
+</suite>

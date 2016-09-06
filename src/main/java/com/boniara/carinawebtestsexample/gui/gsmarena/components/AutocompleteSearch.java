@@ -1,0 +1,27 @@
+package com.boniara.carinawebtestsexample.gui.gsmarena.components;
+
+import com.qaprosoft.carina.core.foundation.webdriver.decorator.ExtendedWebElement;
+import com.qaprosoft.carina.core.gui.AbstractUIObject;
+import org.openqa.selenium.SearchContext;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.FindBy;
+
+import java.util.List;
+
+public class AutocompleteSearch extends AbstractUIObject {
+
+    @FindBy(xpath = ".//a/span")
+    private List<ExtendedWebElement> productList;
+
+    public AutocompleteSearch(WebDriver driver, SearchContext searchContext) {
+        super(driver, searchContext);
+    }
+
+    public String getProductName(Integer index) {
+        return productList.get(index).getText();
+    }
+
+    public ExtendedWebElement getElement(Integer index) {
+        return productList.get(index - 1);
+    }
+}

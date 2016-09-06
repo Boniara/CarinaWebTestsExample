@@ -2,8 +2,10 @@
 
 <suite name="onlinerSuite" parallel="methods" thread-count="5" >
     <test name="onlinerTest">
+        <parameter name="tableName" value="launch"/>
+        <parameter name="rowName" value="announced"/>
         <classes>
-            <class name="com.boniara.carinawebtestsexample.OnlinerTestSuite"/>
+            <class name="com.boniara.carinawebtestsexample.GsmArenaTests"/>
         </classes>
     </test>
 </suite>
